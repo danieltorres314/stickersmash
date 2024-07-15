@@ -11,7 +11,7 @@ export default function Button({ label }) {
     </View>
   );
 }
-const styles = StyleSheet({
+const styles = StyleSheet.create({
   buttonContainer: {
     width: 320,
     height: 68,
