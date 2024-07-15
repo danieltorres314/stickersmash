@@ -4,16 +4,16 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+        <Image source={PlaceholderImage} style={styles.image} />
     </View>
+      <StatusBar style="auto" />
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#25292e',
     alignItems: 'center',
     justifyContent: 'center',
   },
